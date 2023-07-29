@@ -32,7 +32,7 @@ export const Carousel = () => {
                     id: responseData[key].id,
                     title: responseData[key].title,
                     author: responseData[key].author,
-                    description: responseData[key].copies,
+                    description: responseData[key].description,
                     copiesAvailable: responseData[key].copiesAvailable,
                     category: responseData[key].category,
                     img: responseData[key].img
